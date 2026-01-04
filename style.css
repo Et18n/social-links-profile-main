@@ -53,21 +53,21 @@ main {
     display: flex;
     flex-direction: column;
     width: 87%;
-    button {
+
+    .button {
       background-color: var(--grey-700);
-      padding: 10px 15px;
+      padding: 10px 20px;
       margin-bottom: 10px;
       outline: none;
       border-radius: 10px;
       border: solid var(--grey-700);
       cursor: pointer;
+      font-weight: 500;
     }
-    button:hover {
+    .button:hover {
       border: solid #c5f82a;
       background-color: #c5f82a;
-      a {
-        color: var(--grey-800);
-      }
+      color: var(--grey-800);
     }
     a {
       color: var(--white);
